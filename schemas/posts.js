@@ -57,8 +57,13 @@ export default {
     {
       name: 'category',
       title: 'Category',
-      type: 'reference',
-      to: [{type: 'category'}],
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Poetry', value: 'poetry'},
+          {title: 'Flash Fiction', value: 'flash fiction'},
+        ],
+      },
     },
   ],
 }
