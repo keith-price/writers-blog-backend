@@ -61,7 +61,11 @@ export default {
       options: {
         list: [
           {title: 'Poetry', value: 'poetry'},
+          {title: 'Short Story', value: 'short story'},
           {title: 'Flash Fiction', value: 'flash fiction'},
+          {title: 'Memoir/Non-Fiction', value: 'memoir/non-fiction'},
+          {title: 'Novel Extracts', value: 'novel extracts'},
+          {title: 'Diary', value: 'diary'},
         ],
       },
     },
