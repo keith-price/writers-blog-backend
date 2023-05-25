@@ -56,9 +56,9 @@ export default {
     },
     {
       name: 'category',
-      type: 'string',
       title: 'Category',
-      validation: (Rule) => Rule.required().min(2).max(20),
+      type: 'reference',
+      to: [{type: 'category'}],
     },
   ],
 }
