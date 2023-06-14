@@ -66,6 +66,7 @@ export default {
           {title: 'Memoir/Non-Fiction', value: 'memoir-non-fiction'},
           {title: 'Novel Extracts', value: 'novel extracts'},
           {title: 'Diary', value: 'diary'},
+          {title: 'Utility', value: 'utility'},
         ],
       },
     },
